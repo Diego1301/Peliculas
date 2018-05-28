@@ -121,15 +121,19 @@ section>.container1>img{
   height: 450px;
 }
 section>.container1>.nv1{
-  position: absolute;
   width: 290px;
   height: 450px;
-  background-color: rgba(0, 0, 0, .7);
+  position: absolute;
   margin: auto;
   top: 0;
-  bottom: 0;
-  right: 0;
   left: 0;
+  background-color: rgba(0, 0, 0, .7);
+  transform: scale(0);
+  transition-duration: 0s;
+}
+section>.container1:hover> .nv1{
+  transform: scale(1);
+  transition-duration:.5s;
 }
 section>.container1>.nv1>h4{
   color: white;
@@ -164,15 +168,19 @@ section>.container1>.nv1>p{
   height: 450px;
 }
 section>.container2>.n1{
-  position: absolute;
   width: 290px;
   height: 450px;
-  background-color: rgba(0, 0, 0, .7);
+  position: absolute;
   margin: auto;
   top: 0;
-  bottom: 0;
-  right: 0;
   left: 0;
+  background-color: rgba(0, 0, 0, .7);
+  transform: scale(0);
+  transition-duration: 0s;
+}
+section>.container2:hover> .n1{
+  transform: scale(1);
+  transition-duration:.5s;
 }
 section>.container2>.n1>h4{
   color: white;
@@ -207,15 +215,19 @@ section>.container2>.n1>p{
   height: 450px;
 }
 section>.container3>.n2{
-  position: absolute;
   width: 290px;
   height: 450px;
-  background-color: rgba(0, 0, 0, .7);
+  position: absolute;
   margin: auto;
   top: 0;
-  bottom: 0;
-  right: 0;
   left: 0;
+  background-color: rgba(0, 0, 0, .7);
+  transform: scale(0);
+  transition-duration: 0s;
+}
+section>.container3:hover> .n2{
+  transform: scale(1);
+  transition-duration:.5s;
 }
 section>.container3>.n2>h4{
   color: white;
@@ -242,23 +254,27 @@ footer{
   background-color: white;
   margin-top: 74%;
 }
-footer>.a1{
-  position: absolute;
+footer>.ar1{
   width: 100%;
   height: 300px;
   margin-top: 5px;
   background-color: black;
 
 }
-footer>.a1>img{
+footer>.ar1>.pie1{
+  width: 50%;
+  height: 50%;
+  background-color: black;
+  margin-left: 25%;
+  margin-bottom: 25px;
+}
+footer>.ar1>.pie1>img{
   width: 50px;
   height: 50px;
   margin: auto;
-  margin-top: 50px;
-  position: fixed;
-  display: table;
-  align-self: center;
+
 }
+
 .container4{
   position: absolute;
   margin: auto;
@@ -274,15 +290,19 @@ footer>.a1>img{
   height: 450px;
 }
 section>.container4>.n3{
-  position: absolute;
   width: 290px;
   height: 450px;
-  background-color: rgba(0, 0, 0, .7);
+  position: absolute;
   margin: auto;
   top: 0;
-  bottom: 0;
-  right: 0;
   left: 0;
+  background-color: rgba(0, 0, 0, .7);
+  transform: scale(0);
+  transition-duration: 0s;
+}
+section>.container4:hover> .n3{
+  transform: scale(1);
+  transition-duration:.5s;
 }
 section>.container4>.n3>h4{
   color: white;
@@ -317,15 +337,19 @@ section>.container4>.n3>p{
   height: 450px;
 }
 section>.container5>.n4{
-  position: absolute;
   width: 290px;
   height: 450px;
-  background-color: rgba(0, 0, 0, .7);
+  position: absolute;
   margin: auto;
   top: 0;
-  bottom: 0;
-  right: 0;
   left: 0;
+  background-color: rgba(0, 0, 0, .7);
+  transform: scale(0);
+  transition-duration: 0s;
+}
+section>.container5:hover> .n4{
+  transform: scale(1);
+  transition-duration:.5s;
 }
 section>.container5>.n4>h4{
   color: white;
@@ -360,15 +384,19 @@ section>.container5>.n4>p{
   height: 450px;
 }
 section>.container6>.n5{
-  position: absolute;
   width: 290px;
   height: 450px;
-  background-color: rgba(0, 0, 0, .7);
+  position: absolute;
   margin: auto;
   top: 0;
-  bottom: 0;
-  right: 0;
   left: 0;
+  background-color: rgba(0, 0, 0, .7);
+  transform: scale(0);
+  transition-duration: 0s;
+}
+section>.container6:hover> .n5{
+  transform: scale(1);
+  transition-duration:.5s;
 }
 section>.container6>.n5>h4{
   color: white;
