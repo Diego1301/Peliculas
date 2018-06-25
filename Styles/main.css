@@ -262,7 +262,7 @@ footer{
 }
 footer>.ar1{
   width: 100%;
-  height: 300px;
+  height: 100%;
   margin-top: 5px;
   background-color: black;
 
@@ -274,13 +274,39 @@ footer>.ar1>.pie1{
   margin-left: 25%;
   margin-bottom: 25px;
 }
-footer>.ar1>.pie1>img{
+footer>.ar1>.pie1>.redes>img{
   width: 50px;
   height: 50px;
   margin: auto;
-
+  margin-top: 20px;
 }
-
+footer>.ar1>.pie1>.redes{
+  width: 50px;
+  height: 50px;
+  margin: auto;
+  margin-left: -20px;
+}
+footer>.ar1>.pie1>.red{
+  color: white;
+  margin-left: 0%;
+}
+footer>.ar1>.pie1>.ter{
+  color: white;
+  margin-left: 0%;
+  margin-top: 10px;
+}
+footer>.ar1>.pie1>.pr{
+  color: white;
+  margin-left: 0%;
+  margin-top: 20px;
+}
+.pl{
+  position: absolute;
+  width: 100%;
+  height: 300px;
+  background-color: white;
+  margin-top: 15%;
+}
 .container4{
   position: absolute;
   margin: auto;
