@@ -294,16 +294,19 @@ footer>.ar1>.pie1>.redes{
 footer>.ar1>.pie1>.red{
   color: white;
   margin-left: 0%;
+  font-size: 15px;
 }
 footer>.ar1>.pie1>.ter{
   color: white;
   margin-left: 0%;
   margin-top: 10px;
+  font-size: 15px;
 }
 footer>.ar1>.pie1>.pr{
   color: white;
   margin-left: 0%;
   margin-top: 20px;
+  font-size: 15px;
 }
 .pl{
   position: absolute;
@@ -485,7 +488,7 @@ h1{
   margin-top: 380px;
 }
 .titan>p{
-  margin-top: 550px;
+  margin-top: 50px;
   color: white;
   font-size: 20px;
   width: 100%;
@@ -496,7 +499,7 @@ h1{
   margin: auto;
   margin-left: 20%;
   position: absolute;
-  margin-top: 30px;
+  margin-top: 100px;
 }
 .pelis{
   position: absolute;
@@ -536,7 +539,7 @@ h1{
   margin-top: 380px;
 }
 .pelic>p{
-  margin-top: 600px;
+  margin-top: 100px;
   color: white;
   font-size: 20px;
   width: 100%;
@@ -557,4 +560,16 @@ text-decoration: none;
 }
 .boton:hover h4{
   color: rgba(255, 0, 50, 1);
+}
+.director{
+  margin-top: 650px;
+  color: white;
+}
+.estr{
+  margin-top: 60px;
+  color: white;
+}
+.prota{
+  margin-top: 60px;
+  color: white;
 }
